@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1{
+	font-size: 48px;
+}
+nav{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 3%;
+}
+
+nav a{
+	color: grey;
+	text-decoration: none;
+}
+
+.titlebar{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.titletext{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.titletext h1{
+	text-align: center;
+}
+
+.linkbox{
+	text-align: center;
+	border: 2px grey solid;
+	padding: 5px;
+}
+
+.titlebar img{
+	width: initial;
+	height: initial;
+}
+
+hr{
+	margin: 3%;
+}
+
+.boxrow{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.textbox{
+	margin: 3%;
+}
+
+.middle-img{
+	display: block;
+	margin: auto;
+}
+
+.contactblock{
+	margin: 3%;
+}
+
+.contactblock p{
+	margin-bottom: 10px;
+}
+
+.copyright{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+/* Begin CSS specifically for Services page */
+
+.services-header-img{
+	display: block;
+	margin: auto;
+}
+
+.wrapboxes{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 0 3%;
+}
+
+.greybox{
+	width: 48%;
+	background-color: whitesmoke;
+	border: 1px black solid;
+	padding: 15px;
+	margin: 2% 0;
+}
+
+.greybox p{
+	line-height: 1.3;
+}
+
+.greybox a{
+	display: block;
+	color: black;
+	font-size: smaller;
+	text-decoration: none;
+	background-color: white;
+	text-align: center;
+	width: 30%;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 8px 0;
+	margin-top: 1em;
+}
+
+.somefacts{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0 3%;
+}
+
+.leftside{
+	justify-content: left;
+	padding-right: 10%;
+}
+
+.leftside p{
+	margin-bottom: 10px;
+}
+
+.somefacts img{
+	width: initial;
+	height: initial;
+}
+
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.5;
+}
+
+.blankspace{
+	height: 10%;
+}

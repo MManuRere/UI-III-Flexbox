@@ -150,16 +150,17 @@ hr{
 .wrapboxes{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-content: space-between;
+	margin: 0 3%;
 }
 
 .greybox{
-	width: 44%;
+	width: 48%;
 	background-color: whitesmoke;
 	border: 1px black solid;
 	padding: 15px;
-	margin: 25px 0;
+	margin: 2% 0;
 }
 
 .greybox p{

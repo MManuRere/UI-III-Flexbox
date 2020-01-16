@@ -76,7 +76,6 @@ nav{
 }
 
 nav a{
-	vertical-align: middle;
 	color: grey;
 	text-decoration: none;
 }
@@ -89,7 +88,6 @@ nav a{
 }
 
 .titletext{
-	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -109,7 +107,6 @@ nav a{
 .titlebar img{
 	width: initial;
 	height: initial;
-	margin: 20px;
 }
 
 hr{
@@ -122,7 +119,7 @@ hr{
 }
 
 .textbox{
-	padding: 3%;
+	margin: 3%;
 }
 
 .middle-img{

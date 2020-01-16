@@ -138,6 +138,7 @@ hr{
 .copyright{
 	text-align: center;
 	margin: auto;
+	margin-bottom: 5%;
 }
 
 /* Begin CSS specifically for Services page */
@@ -183,15 +184,15 @@ hr{
 
 .somefacts{
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-content: center;
 	margin: 0 3%;
 }
 
 .leftside{
-	width: 40%;
 	justify-content: left;
+	padding-right: 10%;
 }
 
 .leftside p{
